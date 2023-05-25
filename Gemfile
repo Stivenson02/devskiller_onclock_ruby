@@ -7,6 +7,7 @@ gem 'puma'
 gem 'rails', '~> 6.1.6'
 gem 'rubocop-rails', require: false
 gem 'sqlite3'
+gem 'pry-rails'
 
 group :development do
   gem 'listen'

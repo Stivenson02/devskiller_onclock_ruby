@@ -13,9 +13,9 @@
 ActiveRecord::Schema.define(version: 2019_10_05_105728) do
 
   create_table "events", force: :cascade do |t|
-    t.integer "employee_id"
-    t.datetime "timestamp"
-    t.integer "kind"
+    t.integer "employee_id", null: false
+    t.datetime "timestamp", null: false
+    t.integer "kind", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
